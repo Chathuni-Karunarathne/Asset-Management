@@ -72,5 +72,3 @@ export default defineConfig([
 ])
 ```
 
-
-![App Screenshot](D:\Asset-Management\Frontend\asset-management.png)
