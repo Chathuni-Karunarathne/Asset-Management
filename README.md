@@ -58,19 +58,6 @@ Asset-Management/
 
 Payload fields align with the form inputs (name, department, category, status, purchaseDate, purchasePrice).
 
-
-
-## Troubleshooting Tips
-
-- **Backend fails to start**: verify PostgreSQL is running and `DATABASE_URL` is correct.
-- **Frontend cannot reach API**: ensure the backend is on port 4000 (or update `VITE_API_BASE_URL`).
-- **Schema changes not visible**: rerun `npm run db:push` and restart the backend.
-
-## Next Steps
-
-- Add authentication multi-user environments.
-- Expand reporting (filters, export options).
-
 ## Screenshot
 
 -![alt text](asset-management.png)
